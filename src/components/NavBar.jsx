@@ -5,26 +5,38 @@ import logo from "../assets/assets/logo.png";
 
 function NavBar() {
     return (
-        <Navbar fluid rounded className="bg-color-primary-100 py-4 lg:px-20">
+        <Navbar fluid rounded className="bg-primary-100 py-4 lg:px-20">
             <Navbar.Brand href="/">
                 <img src={logo} className="mr-3 h-6 sm:h-12" alt="Logo" />
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"></span>
             </Navbar.Brand>
-            <div className="flex md:order-2 bg-color-primary-600 rounded-md hover:bg-color-primary-700">
+            <div className="flex md:order-2 bg-primary-600 rounded-md hover:bg-primary-700">
                 <Button>Masuk</Button>
                 <Navbar.Toggle />
             </div>
             <Navbar.Collapse>
-                <Navbar.Link className="px-6 py-6 border " href="/edukasi">
+                <Navbar.Link
+                    className="px-6 py-6 border text-stone-700"
+                    href="/edukasi"
+                >
                     Edukasi
                 </Navbar.Link>
-                <Navbar.Link className="px-6 py-6 text" href="konsultasi">
+                <Navbar.Link
+                    className="px-6 py-6 text text-stone-700"
+                    href="konsultasi"
+                >
                     Konsultasi
                 </Navbar.Link>
-                <Navbar.Link className="px-6 py-6 text" href="informasi">
+                <Navbar.Link
+                    className="px-6 py-6 text text-stone-700"
+                    href="informasi"
+                >
                     Informasi
                 </Navbar.Link>
-                <Navbar.Link className="px-6 py-6 text" href="komunitas">
+                <Navbar.Link
+                    className="px-6 py-6 text text-stone-700"
+                    href="komunitas"
+                >
                     Komunitas
                 </Navbar.Link>
             </Navbar.Collapse>

@@ -1,9 +1,10 @@
+import KonsultasiHead from "../components/KonsultasiHead";
 import NavBar from "../components/NavBar";
 
 function Konsultasi() {
     return (
         <>
-            <h1>Konsultasi</h1>
+            <KonsultasiHead />
         </>
     );
 }
