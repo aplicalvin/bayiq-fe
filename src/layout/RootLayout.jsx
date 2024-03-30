@@ -4,8 +4,10 @@ import NavBar from "../components/NavBar";
 const RootLayout = () => {
     return (
         <>
-            <NavBar />
-            <Outlet />
+            <div className="bg-stone-100">
+                <NavBar />
+                <Outlet />
+            </div>
         </>
     );
 };
