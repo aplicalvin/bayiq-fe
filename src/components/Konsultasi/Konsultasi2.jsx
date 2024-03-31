@@ -2,9 +2,9 @@ function Konsultasi2() {
     return (
         <>
             <div className="flex justify-center w-full h-fit bg-primary-50  place-self-center">
-                <div className="max-w-[1440px] w-full h-96 px-20 py-12 justify-between inline-flex">
+                <div className="grid lg:inline-flex gap-16 max-w-[1440px] lg:w-full px-6 md:px-20 pt-12 justify-between">
                     <div className="w-full max-w-lg flex-col justify-start items-center gap-3 inline-flex">
-                        <div className="self-stretch h-20 flex-col justify-start items-center gap-1 flex">
+                        <div className="self-stretch flex-col justify-start items-center gap-1 flex">
                             <div className="self-stretch text-stone-800 text-4xl font-bold leading-10">
                                 Kenapa sih kita perlu konsultasi?
                             </div>
@@ -36,14 +36,14 @@ function Konsultasi2() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full max-w-lg h-[336px] px-12 py-9 bg-primary-600 rounded-tl-3xl rounded-tr-3xl flex-col justify-start items-center gap-4 inline-flex">
-                        <div className="self-stretch h-16 flex-col justify-start items-center gap-1 flex">
+                    <div className="w-full max-w-lg  px-12 py-9 bg-primary-600 rounded-tl-3xl rounded-tr-3xl flex-col justify-start items-center gap-4 inline-flex">
+                        <div className="self-stretch flex-col justify-start items-center gap-1 flex">
                             <div className="self-stretch text-stone-100 text-3xl font-bold leading-9">
                                 Berbagai masalah yang dapat kami bantu
                             </div>
                         </div>
                         <div className="self-stretch h-px border border-stone-300"></div>
-                        <div className="self-stretch h-28 flex-col justify-start items-center gap-2 flex">
+                        <div className="self-stretch flex-col justify-start items-center gap-2 flex">
                             <div className="self-stretch text-stone-200 text-base font-normal leading-normal">
                                 Fizi mengejek upin ipin
                             </div>

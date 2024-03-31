@@ -1,6 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import NavBar from "./components/NavBar.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import RootLayout from "./layout/RootLayout.jsx";
 import Edukasi from "./pages/Edukasi.jsx";
 import Konsultasi from "./pages/Konsultasi.jsx";
@@ -9,35 +8,19 @@ import Komunitas from "./pages/Komunitas.jsx";
 import HomePage from "./pages/HomePage.jsx";
 
 function App() {
-    const router = createBrowserRouter([
-        {
-            path: "/",
-            element: <RootLayout />,
-            children: [
-                {
-                    path: "/",
-                    element: <HomePage />,
-                },
-                {
-                    path: "/edukasi",
-                    element: <Edukasi />,
-                },
-                {
-                    path: "/konsultasi",
-                    element: <Konsultasi />,
-                },
-                {
-                    path: "/informasi",
-                    element: <Informasi />,
-                },
-                {
-                    path: "/komunitas",
-                    element: <Komunitas />,
-                },
-            ],
-        },
-    ]);
-    return <RouterProvider router={router} />;
+    return (
+        <Router>
+            <Routes>
+                <Route path="/" element={<RootLayout />}>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/edukasi" element={<Edukasi />} />
+                    <Route path="/konsultasi" element={<Konsultasi />} />
+                    <Route path="/informasi" element={<Informasi />} />
+                    <Route path="/komunitas" element={<Komunitas />} />
+                </Route>
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
