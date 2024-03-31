@@ -6,6 +6,7 @@ import Konsultasi from "./pages/Konsultasi.jsx";
 import Informasi from "./pages/Informasi.jsx";
 import Komunitas from "./pages/Komunitas.jsx";
 import HomePage from "./pages/HomePage.jsx";
+import Roadmap from "./pages/Roadmap.jsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
                     <Route path="/konsultasi" element={<Konsultasi />} />
                     <Route path="/informasi" element={<Informasi />} />
                     <Route path="/komunitas" element={<Komunitas />} />
+                    <Route path="/roadmap" element={<Roadmap />} />
                 </Route>
             </Routes>
         </Router>
