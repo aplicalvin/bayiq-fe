@@ -9,14 +9,14 @@ function CardArtEdu() {
         <>
             <Link to={"/login"}>
                 <div className="w-full lg:w-96 rounded-3xl border border-stone-300 flex-col justify-start items-start inline-flex bg-stone-50">
-                    <div className="h-48 relative bg-rose-50">
+                    <div className="h-48 w-full relative bg-rose-50">
                         <img
                             src={Image1}
-                            className="h-48 relative rounded-t-3xl"
+                            className="h-48 object-cover w-full  relative rounded-t-3xl"
                             alt=""
                         />
                     </div>
-                    <div className="self-stretch lg:h-32 px-6 pt-3 pb-6 flex-col justify-start items-start flex gap-3">
+                    <div className="self-stretch  px-6 pt-3 pb-6 flex-col justify-start items-start flex gap-3">
                         {/* Badge */}
                         <div className="flex flex-wrap gap-2">
                             <Badge className="bg-stone-100 border-stone-300 border text-stone-600">
