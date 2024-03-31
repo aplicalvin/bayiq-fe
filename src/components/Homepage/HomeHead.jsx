@@ -1,0 +1,33 @@
+function HomeHead() {
+    return (
+        <>
+            {/* <div className="w-full"> */}
+            <div className=" w-full px-6  md:px-20 py-12 flex-col justify-start items-center gap-6 inline-flex">
+                <div className="max-w-2xl w-full  flex-col justify-start items-center gap-3 flex ">
+                    <div className="self-stretch flex-col justify-start items-center gap-1 flex">
+                        <div className="self-stretch text-center text-primary-600 text-lg font-bold leading-7">
+                            Tahukah anda?
+                        </div>
+                        <div className="flex gap-4 center">
+                            <div className="self-stretch text-center text-stone-900 text-9xl font-bold ">
+                                90%
+                            </div>
+                            <div className="grid place-content-center self-stretch text-stone-700 text-2xl font-bold leading-8">
+                                Orang tua tersesat dalam mengurus bayi mereka
+                                karena kurang persiapan
+                            </div>
+                        </div>
+                    </div>
+                    <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
+                        Tersesat dalam persiapan menyambut kelahiran si kecil?
+                        Jangan biarkan kekhawatiran membebani Anda. Anda berada
+                        di tempat yang tepat. silahkan baca artikel dibawah ini
+                    </div>
+                </div>
+            </div>
+            {/* </div> */}
+        </>
+    );
+}
+
+export default HomeHead;
