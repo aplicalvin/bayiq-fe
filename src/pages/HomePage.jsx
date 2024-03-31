@@ -1,7 +1,11 @@
+import HomeBanner from "../components/Homepage/Banner";
+import HomeHead from "../components/Homepage/HomeHead";
+
 function HomePage() {
     return (
         <>
-            <h1>Homepages</h1>
+            <HomeBanner />
+            <HomeHead />
         </>
     );
 }
