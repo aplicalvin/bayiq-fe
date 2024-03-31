@@ -1,7 +1,13 @@
+import Edukasi2 from "../components/Edukasi/Edukasi2";
+import EdukasiHead from "../components/Edukasi/EdukasiHead";
+
 function Edukasi() {
     return (
         <>
-            <h1>Edukasi</h1>
+            <div>
+                <EdukasiHead />
+                <Edukasi2 />
+            </div>
         </>
     );
 }
