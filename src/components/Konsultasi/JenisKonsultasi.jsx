@@ -1,9 +1,9 @@
 function JenisKonsultasi() {
     return (
         <>
-            <div className="w-96 rounded-3xl border border-neutral-300 flex-col justify-start items-start inline-flex">
-                <div className="w-96 h-48 relative bg-rose-50" />
-                <div className="self-stretch h-32 px-6 pt-3 pb-6 flex-col justify-start items-start flex">
+            <div className="w-72 lg:w-96 rounded-3xl border border-neutral-300 flex-col justify-start items-start inline-flex bg-stone-50">
+                <div className="h-48 relative bg-rose-50"></div>
+                <div className="self-stretch lg:h-32 px-6 pt-3 pb-6 flex-col justify-start items-start flex">
                     <div className="self-stretch text-neutral-700 text-xl font-bold font-['Plus Jakarta Sans'] leading-7">
                         Konsultasi Pasutri Baru
                     </div>

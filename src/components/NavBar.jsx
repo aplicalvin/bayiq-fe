@@ -13,13 +13,13 @@ function NavBar() {
             <div className="flex gap-4">
                 <Navbar.Toggle className=" " />
                 <Link
-                    className="md:hidden flex py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
+                    className="lg:hidden flex py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
                     to="/login"
                 >
                     Masuk
                 </Link>
             </div>
-            <Navbar.Collapse className="md:w-fit md:flex">
+            <Navbar.Collapse className="lg:w-fit lg:flex">
                 <Link
                     className="px-3 py-6 text-stone-500 hover:text-stone-900 "
                     to="/edukasi"
@@ -46,7 +46,7 @@ function NavBar() {
                 </Link>
             </Navbar.Collapse>
             <Link
-                className="md:flex hidden py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
+                className="lg:flex hidden py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
                 to="/login"
             >
                 Masuk

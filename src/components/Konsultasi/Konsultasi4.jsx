@@ -7,7 +7,7 @@ function Konsultasi4() {
     return (
         <>
             <div className="flex justify-center w-full h-fit  place-self-center">
-                <div className="max-w-[1440px] w-full px-20 py-12 justify-between grid gap-6">
+                <div className="max-w-[1440px] w-full px-6 md:px-20 py-12 justify-between grid gap-6">
                     {/* List disini */}
                     <div className="border border-stone-300 rounded-3xl p-9 grid gap-8 bg-stone-50 cekbang">
                         <div className="">
