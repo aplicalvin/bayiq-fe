@@ -6,93 +6,67 @@ function FaqKonsul() {
             <div className="flex w-full max-w-7xl">
                 <Accordion collapseAll>
                     <Accordion.Panel>
-                        <Accordion.Title>What is Flowbite?</Accordion.Title>
+                        <Accordion.Title>
+                            Apakah konsultasi ini tersedia untuk semua orang
+                            tua?
+                        </Accordion.Title>
                         <Accordion.Content className="cekbang">
                             <p className=" mb-2 text-gray-500 dark:text-gray-400">
-                                Flowbite is an open-source library of
-                                interactive components built on top of Tailwind
-                                CSS including buttons, dropdowns, modals,
-                                navbars, and more.
-                            </p>
-                            <p className="text-gray-500 dark:text-gray-400">
-                                Check out this guide to learn how to&nbsp;
-                                <a
-                                    href="https://flowbite.com/docs/getting-started/introduction/"
-                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                >
-                                    get started&nbsp;
-                                </a>
-                                and start developing websites even faster with
-                                components on top of Tailwind CSS.
+                                Ya, konsultasi kami tersedia untuk semua orang
+                                tua yang memerlukan bantuan dan nasihat tentang
+                                perawatan bayi dan perkembangan anak. Kami siap
+                                membantu dengan berbagai pertanyaan dan
+                                kekhawatiran yang Anda miliki.
                             </p>
                         </Accordion.Content>
                     </Accordion.Panel>
                     <Accordion.Panel>
                         <Accordion.Title>
-                            Is there a Figma file available?
+                            Apa yang dapat saya harapkan dari sesi konsultasi
+                            dengan ahli kesehatan anak?
                         </Accordion.Title>
                         <Accordion.Content>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                Flowbite is first conceptualized and designed
-                                using the Figma software so everything you see
-                                in the library has a design equivalent in our
-                                Figma file.
-                            </p>
-                            <p className="text-gray-500 dark:text-gray-400">
-                                Check out the
-                                <a
-                                    href="https://flowbite.com/figma/"
-                                    className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                >
-                                    Figma design system
-                                </a>
-                                based on the utility classes from Tailwind CSS
-                                and components from Flowbite.
+                                Sesi konsultasi dengan ahli kesehatan anak akan
+                                memberikan Anda kesempatan untuk mendiskusikan
+                                kekhawatiran atau pertanyaan Anda tentang
+                                kesehatan dan perkembangan anak Anda. Ahli kami
+                                akan memberikan informasi yang akurat, saran
+                                praktis, dan dukungan emosional sesuai dengan
+                                kebutuhan Anda.
                             </p>
                         </Accordion.Content>
                     </Accordion.Panel>
                     <Accordion.Panel>
                         <Accordion.Title>
-                            What are the differences between Flowbite and
-                            Tailwind UI?
+                            Apakah konsultasi tersedia secara online atau
+                            offline?
                         </Accordion.Title>
                         <Accordion.Content>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                The main difference is that the core components
-                                from Flowbite are open source under the MIT
-                                license, whereas Tailwind UI is a paid product.
-                                Another difference is that Flowbite relies on
-                                smaller and standalone components, whereas
-                                Tailwind UI offers sections of pages.
+                                Saat ini, kami menyediakan konsultasi secara
+                                daring (online) melalui platform kami. Anda
+                                dapat terhubung dengan ahli kesehatan anak kami
+                                melalui obrolan video atau pesan teks,
+                                memberikan kenyamanan dan aksesibilitas
+                                tambahan.
                             </p>
+                        </Accordion.Content>
+                    </Accordion.Panel>
+                    <Accordion.Panel>
+                        <Accordion.Title>
+                            Bagaimana keamanan data dan privasi saya dijamin
+                            selama sesi konsultasi?
+                        </Accordion.Title>
+                        <Accordion.Content>
                             <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                However, we actually recommend using both
-                                Flowbite, Flowbite Pro, and even Tailwind UI as
-                                there is no technical reason stopping you from
-                                using the best of two worlds.
+                                Keamanan data dan privasi Anda adalah prioritas
+                                utama kami. Kami menggunakan teknologi enkripsi
+                                yang kuat untuk melindungi informasi pribadi
+                                Anda selama sesi konsultasi. Semua percakapan
+                                dijaga kerahasiaannya dan hanya diakses oleh
+                                Anda dan ahli kesehatan anak yang bersangkutan.
                             </p>
-                            <p className="mb-2 text-gray-500 dark:text-gray-400">
-                                Learn more about these technologies:
-                            </p>
-                            <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-                                <li>
-                                    <a
-                                        href="https://flowbite.com/pro/"
-                                        className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                    >
-                                        Flowbite Pro
-                                    </a>
-                                </li>
-                                <li>
-                                    <a
-                                        href="https://tailwindui.com/"
-                                        rel="nofollow"
-                                        className="text-cyan-600 hover:underline dark:text-cyan-500"
-                                    >
-                                        Tailwind UI
-                                    </a>
-                                </li>
-                            </ul>
                         </Accordion.Content>
                     </Accordion.Panel>
                 </Accordion>

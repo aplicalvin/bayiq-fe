@@ -5,7 +5,7 @@ function JenisKonsultasi() {
             <div className="w-full lg:w-96 rounded-3xl border border-stone-300 flex-col justify-start items-start inline-flex bg-stone-50">
                 <div className="h-48 w-full relative bg-rose-50">
                     <img
-                        src={Image1}
+                        src="https://pbs.twimg.com/media/FwC527BakAEvT2v?format=jpg"
                         className="h-48 object-cover w-full  relative rounded-t-3xl"
                         alt=""
                     />
@@ -16,7 +16,8 @@ function JenisKonsultasi() {
                     </div>
                     <div className="self-stretch text-stone-400 text-base font-normal  leading-normal">
                         Sebagai orang tua baru, tentu masih belum punya
-                        pengalaman banyak di bidang ini. Jadi jangan langsung
+                        pengalaman banyak dalam mengurus bayi. Konsultasikan
+                        kepada ahlinya!
                     </div>
                 </div>
             </div>
