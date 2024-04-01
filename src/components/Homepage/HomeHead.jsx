@@ -13,15 +13,16 @@ function HomeHead() {
                                 90%
                             </div>
                             <div className="grid place-content-center self-stretch text-stone-700 text-2xl font-bold leading-8">
-                                Orang tua tersesat dalam mengurus bayi mereka
-                                karena kurang persiapan
+                                Orang tua mengalami kesulitan dalam mengurus
+                                bayi mereka
                             </div>
                         </div>
                     </div>
                     <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                        Tersesat dalam persiapan menyambut kelahiran si kecil?
-                        Jangan biarkan kekhawatiran membebani Anda. Anda berada
-                        di tempat yang tepat. silahkan baca artikel dibawah ini
+                        Masa batita merupakan masa emas, dimana tumbuh kembang
+                        si kecil sangat dipengaruhi oleh masa ini. Oleh sebab
+                        itu penting bagi orang tua untuk dapat lebih siap dalam
+                        mempersiapkan segala kebutuhan si kecil.
                     </div>
                 </div>
             </div>
