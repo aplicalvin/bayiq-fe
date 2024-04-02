@@ -1,7 +1,12 @@
+import LoginForm from "../components/Login/LoginForm";
+import LoginHead from "../components/Login/LoginHead";
+
 function Login() {
     return (
         <>
-            <h1>login</h1>
+            <div className="flex h-screen mx-auto">
+                <LoginHead />
+            </div>
         </>
     );
 }
