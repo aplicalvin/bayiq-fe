@@ -7,6 +7,8 @@ import Informasi from "./pages/Informasi.jsx";
 import Komunitas from "./pages/Komunitas.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Roadmap from "./pages/Roadmap.jsx";
+import LoginLayout from "./layout/LoginLayout.jsx";
+import Login from "./pages/Login.jsx";
 
 function App() {
     return (
@@ -19,6 +21,9 @@ function App() {
                     <Route path="/informasi" element={<Informasi />} />
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/roadmap" element={<Roadmap />} />
+                </Route>
+                <Route path="/login" element={<LoginLayout />}>
+                    <Route path="/login" element={<Login />} />
                 </Route>
             </Routes>
         </Router>
