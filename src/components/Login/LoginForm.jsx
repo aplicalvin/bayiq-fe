@@ -18,7 +18,7 @@ function LoginForm() {
                         <TextInput
                             id="email1"
                             type="email"
-                            placeholder="name@flowbite.com"
+                            placeholder="user@vidzi.my.id"
                             required
                         />
                     </div>
@@ -63,10 +63,7 @@ function LoginForm() {
                     </Button>
                     <div className="flex gap-2 w-fit mx-auto text-stone-800 text-md">
                         <p>Belum punya akun?</p>
-                        <Link
-                            to="/forgot-password"
-                            className="underline text-blue-700"
-                        >
+                        <Link to="/signup" className="underline text-blue-700">
                             Sign Up
                         </Link>
                     </div>
