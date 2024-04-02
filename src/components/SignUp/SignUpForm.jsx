@@ -151,13 +151,13 @@ function SignUpForm() {
                         />
                         <Label
                             htmlFor="termsAgreement"
-                            className="text-stone-600 text-sm"
+                            className="text-stone-600 text-xs lg:text-sm"
                         >
                             Saya menyetujui{" "}
                         </Label>
                         <Link
                             to="/privacy-policy"
-                            className="underline text-blue-700 text-sm"
+                            className="underline text-blue-700 text-xs lg:text-sm"
                         >
                             Aturan dan Kebijakan Privasi
                         </Link>
