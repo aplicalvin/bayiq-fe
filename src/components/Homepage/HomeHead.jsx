@@ -8,11 +8,11 @@ function HomeHead() {
                         <div className="self-stretch text-center text-primary-600 text-lg font-bold leading-7">
                             Tahukah anda?
                         </div>
-                        <div className="flex gap-4 center">
+                        <div className="grid md:flex gap-4 center">
                             <div className="self-stretch text-center text-stone-900 text-9xl font-bold ">
                                 90%
                             </div>
-                            <div className="grid place-content-center self-stretch text-stone-700 text-2xl font-bold leading-8">
+                            <div className="grid text-center md:text-left place-content-center self-stretch text-stone-700 text-2xl font-bold leading-8">
                                 Orang tua mengalami kesulitan dalam mengurus
                                 bayi mereka
                             </div>
