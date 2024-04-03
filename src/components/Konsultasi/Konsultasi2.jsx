@@ -17,21 +17,20 @@ function Konsultasi2() {
                             <div className=" self-stretch ml-8">
                                 <ul className="self-stretch text-stone-500 text-base font-normal leading-normal list-disc">
                                     <li>
-                                        Kalo belum siap punya anak minimal pake
-                                        kondom ajg
+                                        Mempersiapkan dana untuk Imunisasi ✅
                                     </li>
                                     <li>
-                                        Kalo belum siap punya anak minimal pake
-                                        kondom ajg
+                                        Mempersiapkan abcdefg untuk abcdefg ✅
                                     </li>
                                     <li>
-                                        Kalo belum siap punya anak minimal pake
-                                        kondom ajg
+                                        Mempersiapkan kebutuhan abcdefg selama 6
+                                        bulan ✅
                                     </li>
                                     <li>
-                                        Kalo belum siap punya anak minimal pake
-                                        kondom ajg
+                                        Memberikan stimulus berupa abcdefg pada
+                                        saat usia 000 ✅
                                     </li>
+                                    <li>dan masih banyak lagi</li>
                                 </ul>
                             </div>
                         </div>
@@ -39,22 +38,27 @@ function Konsultasi2() {
                     <div className="w-full max-w-lg  px-12 py-9 bg-primary-600 rounded-tl-3xl rounded-tr-3xl flex-col justify-start items-center gap-4 inline-flex">
                         <div className="self-stretch flex-col justify-start items-center gap-1 flex">
                             <div className="self-stretch text-stone-100 text-3xl font-bold leading-9">
-                                Berbagai masalah yang dapat kami bantu
+                                Kami hadir untuk membantu memberikan solusi dari
+                                permasalahan seperti,
                             </div>
                         </div>
                         <div className="self-stretch h-px border border-stone-300"></div>
                         <div className="self-stretch flex-col justify-start items-center gap-2 flex">
-                            <div className="self-stretch text-stone-200 text-base font-normal leading-normal">
-                                Fizi mengejek upin ipin
+                            <div className="self-stretch text-stone-50 text-base font-normal leading-normal">
+                                Kurangnya persiapan untuk jadwal Imunisasi si
+                                kecil
                             </div>
-                            <div className="self-stretch text-stone-200 text-base font-normal leading-normal">
-                                Anaknya korban bocil epep
+                            <div className="self-stretch text-stone-50 text-base font-normal leading-normal">
+                                Kebingungan memilih produk untuk si buah hati
                             </div>
-                            <div className="self-stretch text-stone-200 text-base font-normal leading-normal">
-                                Bapaknya hobi nge slot
+                            <div className="self-stretch text-stone-50 text-base font-normal leading-normal">
+                                Terjadinya fenomena{" "}
+                                <i className="italic font-bold text-stone-50">
+                                    baby blues
+                                </i>
                             </div>
-                            <div className="self-stretch text-stone-200 text-base font-normal leading-normal">
-                                Generasi suka makan micin
+                            <div className="self-stretch text-stone-50 text-base font-normal leading-normal">
+                                Si Kecil hobi main gadget sejak dini
                             </div>
                         </div>
                     </div>
