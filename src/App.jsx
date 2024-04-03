@@ -11,6 +11,8 @@ import LoginLayout from "./layout/LoginLayout.jsx";
 import Login from "./pages/Login.jsx";
 import SignUp from "./pages/SignUp.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import DaftarKonsul from "./pages/DaftarKonsul.jsx";
+import PilihSesi from "./pages/PilihSesi.jsx";
 
 function App() {
     return (
@@ -20,6 +22,8 @@ function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/edukasi" element={<Edukasi />} />
                     <Route path="/konsultasi" element={<Konsultasi />} />
+                    <Route path="/daftarkonsul" element={<DaftarKonsul />} />
+                    <Route path="/pilihsesi" element={<PilihSesi />} />
                     <Route path="/informasi" element={<Informasi />} />
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/roadmap" element={<Roadmap />} />
