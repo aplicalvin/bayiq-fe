@@ -1,13 +1,15 @@
 import Edukasi2 from "../components/Edukasi/Edukasi2";
 import EdukasiHead from "../components/Edukasi/EdukasiHead";
 import { useState, useEffect } from "react";
-import { getAllPost } from "../middleware/dataSlice";
+import { GetAllPost } from "../middleware/dataSlice";
+import useAxiosPriv from "../middleware/axiosPriv";
 
 function Edukasi() {
   const [post, setPost] = useState([]);
   const [result, setResult] = useState({ isActive: false, data: [] });
+  // const axiosJWT = useAxiosPriv();
   const fetch = async () => {
-    await getAllPost().then((res) => setPost(res));
+    await GetAllPost().then((res) => setPost(res));
   };
   useEffect(() => {
     fetch();
