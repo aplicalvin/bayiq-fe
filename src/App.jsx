@@ -10,6 +10,7 @@ import Roadmap from "./pages/Roadmap.jsx";
 import LoginLayout from "./layout/LoginLayout.jsx";
 import Login from "./pages/Login.jsx";
 import SignUp from "./pages/SignUp.jsx";
+import NotFound from "./pages/NotFound.jsx";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                     <Route path="/informasi" element={<Informasi />} />
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/roadmap" element={<Roadmap />} />
+                    <Route path="*" element={<NotFound />} />{" "}
                 </Route>
                 <Route path="/" element={<LoginLayout />}>
                     <Route path="/login" element={<Login />} />
