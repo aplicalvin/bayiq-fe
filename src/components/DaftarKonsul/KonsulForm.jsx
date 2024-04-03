@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom"; // Assuming you're using react-router-dom
 import {
     Button,
@@ -53,10 +54,20 @@ function KonsulForm() {
 
                     <Button
                         type="submit"
+                        // onClick={handleButtonClick}
                         className="bg-primary-600 hover:bg-primary-700"
                     >
                         Lanjutkan
                     </Button>
+                    <div className="grid">
+                        <p>
+                            for developer, hbs button atas di klik, ntr set biar
+                            ke redirect ke pages ini ya
+                        </p>
+                        <Link to="/pilihsesi" className="text-blue-800">
+                            Nah, klik ini
+                        </Link>
+                    </div>
                 </form>
             </div>
         </>
