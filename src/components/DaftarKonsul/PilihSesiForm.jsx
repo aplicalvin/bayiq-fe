@@ -8,7 +8,7 @@ function PilihSesiForm() {
 
     return (
         <div className="w-screen">
-            <form className=" mx-auto w-fit px-4 py-2 gap-6 flex  active:border-primary-500">
+            <form className=" mx-auto w-fit px-4 py-2 gap-6 grid md:flex  active:border-primary-500">
                 <div className="min-w-72">
                     <div className="mb-1  block">
                         <Label
