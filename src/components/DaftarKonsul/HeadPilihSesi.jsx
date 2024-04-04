@@ -15,9 +15,7 @@ function HeadPilihSesi() {
                         </div>
                     </div>
                     <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal mx-4">
-                        Lorem ipsum dolor sit amet, yamaha semakin di depan,
-                        saya suka bermain kata - kata. Flora cantik sekali, saya
-                        bingung nulis apa disini.
+                        Pilhlah jadwal, dokter yang sesuai dengan harga anda
                     </div>
                 </div>
                 <PilihSesiForm />
