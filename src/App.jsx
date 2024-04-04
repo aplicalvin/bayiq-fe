@@ -15,6 +15,8 @@ import PilihSesi from "./pages/PilihSesi.jsx";
 import DetailBidan from "./components/Informasi/DetailBidan.jsx";
 import DetailDokter from "./components/Informasi/DetailDokter.jsx";
 import DetailTempat from "./components/Informasi/DetailTempat.jsx";
+import Konfirm from "./pages/Konfirm.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 function App() {
     return (
@@ -25,12 +27,14 @@ function App() {
                     <Route path="/edukasi" element={<Edukasi />} />
                     <Route path="/konsultasi" element={<Konsultasi />} />
                     <Route path="/pilihsesi" element={<PilihSesi />} />
+                    <Route path="/pilihsesi/konfirmasi" element={<Konfirm />} />
                     <Route path="/informasi" element={<Informasi />} />
                     <Route path="/detailbidan" element={<DetailBidan />} />
                     <Route path="/detaildokter" element={<DetailDokter />} />
                     <Route path="/detailtempat" element={<DetailTempat />} />
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/roadmap" element={<Roadmap />} />
+                    <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="*" element={<NotFound />} />{" "}
                 </Route>
                 <Route path="/" element={<LoginLayout />}>
