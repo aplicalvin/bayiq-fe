@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import RootLayout from "./layout/RootLayout.jsx";
@@ -17,12 +18,16 @@ import DetailBidan from "./components/Informasi/DetailBidan.jsx";
 import DetailDokter from "./components/Informasi/DetailDokter.jsx";
 import DetailTempat from "./components/Informasi/DetailTempat.jsx";
 
+import { Auth } from "./middleware/LoginSlice.jsx";
+import PersLog from "./middleware/userAuth.jsx";
 function App() {
-    return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<RootLayout />}>
-                    <Route path="/" element={<HomePage />} />
+  return (
+    <Router>
+      <Auth>
+        <Routes>
+          <PersLog>
+            <Route path="/" element={<RootLayout />}>
+              <Route path="/" element={<HomePage />} />
                     <Route path="/edukasi" element={<Edukasi />} />
                     <Route path="/konsultasi" element={<Konsultasi />} />
                     <Route path="/daftarkonsul" element={<DaftarKonsul />} />
@@ -34,14 +39,17 @@ function App() {
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/roadmap" element={<Roadmap />} />
                     <Route path="*" element={<NotFound />} />{" "}
-                </Route>
-                <Route path="/" element={<LoginLayout />}>
-                    <Route path="/login" element={<Login />} />
-                    <Route path="/signup" element={<SignUp />} />
-                </Route>
-            </Routes>
-        </Router>
-    );
+            </Route>
+          </PersLog>
+          <Route path="/" element={<LoginLayout />}>
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<SignUp />} />
+          </Route>
+        </Routes>
+      </Auth>
+    </Router>
+  );
+
 }
 
 export default App;
