@@ -1,7 +1,8 @@
 import axios from "axios";
 const LogOut = async () => {
   try {
-    await axios.delete("/logout");
+    const cek = await axios.delete("/api/logout");
+    console.log(cek);
   } catch (error) {
     console.error("error saat logout : ", error);
   }

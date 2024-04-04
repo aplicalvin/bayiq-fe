@@ -2,6 +2,7 @@
 import { useContext, createContext, useReducer } from "react";
 
 const initialState = {
+  user: "guest",
   load: true,
   err: "",
   UserData: {},
@@ -20,6 +21,7 @@ export const Auth = ({ children }) => {
         return {
           ...state,
           load: false,
+          user: "user",
           UserData: action.payload,
         };
       case "REFRESH":
@@ -31,6 +33,7 @@ export const Auth = ({ children }) => {
       case "LOGOUT":
         return {
           ...state,
+          user: "guest",
           load: false,
           UserData: {},
         };

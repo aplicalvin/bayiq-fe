@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link, useNavigate } from "react-router-dom"; // Assuming you're using react-router-dom
-import { Button, Checkbox, Label, TextInput } from "flowbite-react";
+import { Button, Checkbox, Label, TextInput, Alert } from "flowbite-react";
 import { useUserContext } from "../../middleware/LoginSlice";
 import { useState } from "react";
 import axios from "axios";
@@ -9,6 +9,11 @@ import axios from "axios";
 function LoginForm() {
   const { dispatch } = useUserContext();
   const [err, setErr] = useState();
+  const [passAlert, setPassAlert] = useState({
+    pesan: "",
+    warna: "",
+  });
+  const [showAlert, setShowAlert] = useState(true);
   const [data, setData] = useState({
     email: "",
     password: "",
@@ -20,6 +25,21 @@ function LoginForm() {
       [name]: value,
     }));
   }
+  const passHandle = (e) => {
+    const hasUpperCase = /[A-Z]/.test(data.password);
+    const hasLowerCase = /[a-z]/.test(data.password);
+
+    const validate =
+      hasUpperCase && hasLowerCase
+        ? setPassAlert({
+            pesan: "Kata sandi mengandung huruf besar & kecil",
+            warna: "green",
+          })
+        : setPassAlert({
+            pesan: "Kata sandi harus mengandung huruf besar & kecil",
+            warna: "red",
+          });
+  };
   const navigate = useNavigate();
   const LoginSubmit = async (e) => {
     e.preventDefault();
@@ -33,7 +53,10 @@ function LoginForm() {
           },
           { withCredentials: true }
         )
-        .then((res) => res.data);
+        .then((res) => res.data)
+        .catch((err) => {
+          setErr(err.res.data.Message);
+        });
       if (log) {
         dispatch({ type: "LOGIN", payload: log });
         navigate("/");
@@ -47,6 +70,11 @@ function LoginForm() {
   return (
     <>
       <div className="">
+        {showAlert && (
+          <Alert type="success" onClose={() => setShowAlert(false)}>
+            {err}
+          </Alert>
+        )}
         <form
           className="mx-auto w-full flex max-w-md flex-col gap-6"
           onSubmit={(e) => LoginSubmit(e)}
@@ -82,9 +110,14 @@ function LoginForm() {
               type="password"
               name="password"
               value={data.password}
-              onChange={(e) => handleInput(e)}
+              onChange={(e) => {
+                handleInput(e), passHandle(e);
+              }}
               required
             />
+            {passAlert && (
+              <p style={{ color: passAlert.warna }}>{passAlert.pesan}</p>
+            )}
           </div>
           <div className="flex justify-between">
             <div className="flex items-center gap-2 border-primary-800">
