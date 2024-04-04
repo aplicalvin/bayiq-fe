@@ -13,6 +13,9 @@ import SignUp from "./pages/SignUp.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import DaftarKonsul from "./pages/DaftarKonsul.jsx";
 import PilihSesi from "./pages/PilihSesi.jsx";
+import DetailBidan from "./components/Informasi/DetailBidan.jsx";
+import DetailDokter from "./components/Informasi/DetailDokter.jsx";
+import DetailTempat from "./components/Informasi/DetailTempat.jsx";
 
 function App() {
     return (
@@ -25,6 +28,9 @@ function App() {
                     <Route path="/daftarkonsul" element={<DaftarKonsul />} />
                     <Route path="/pilihsesi" element={<PilihSesi />} />
                     <Route path="/informasi" element={<Informasi />} />
+                    <Route path="/detailbidan" element={<DetailBidan />} />
+                    <Route path="/detaildokter" element={<DetailDokter />} />
+                    <Route path="/detailtempat" element={<DetailTempat />} />
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/roadmap" element={<Roadmap />} />
                     <Route path="*" element={<NotFound />} />{" "}

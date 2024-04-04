@@ -4,7 +4,7 @@ function Informasi3() {
     return (
         <>
             <div className="flex justify-center w-full h-fit  place-self-center">
-                <div className="max-w-[1440px] w-fit lg:w-full px-6 md:px-20 py-12 justify-between grid gap-6">
+                <div className="max-w-[1440px] w-fit md:w-full px-6 md:px-20 py-12 justify-between grid gap-6">
                     <h1 className="font-bold text-xl text-stone-800">
                         Bidan terdekat dari rumah Anda
                     </h1>
