@@ -8,7 +8,7 @@ function Informasi3() {
                     <h1 className="font-bold text-xl text-stone-800">
                         Bidan terdekat dari rumah Anda
                     </h1>
-                    <div className="self-stretch justify-start items-start gap-6 grid md:grid-cols-3 lg:grid-cols-4">
+                    <div className="self-stretch justify-start items-start gap-6 grid md:grid-cols-2 lg:grid-cols-4">
                         <CardBidan />
                         <CardBidan />
                         <CardBidan />

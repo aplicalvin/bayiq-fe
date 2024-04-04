@@ -5,7 +5,7 @@ import Foter from "../components/Footer";
 const RootLayout = () => {
     return (
         <>
-            <div className="bg-stone-100">
+            <div className="flex flex-col bg-stone-100 min-h-screen cekbang justify-between">
                 <NavBar />
                 <Outlet />
                 <Foter />

@@ -9,8 +9,8 @@ import { FaStar } from "react-icons/fa";
 function CardTempat() {
     return (
         <>
-            <Link to={"/login"}>
-                <div className="w-full lg:w-72 rounded-3xl border border-stone-300 flex-col justify-start items-start inline-flex bg-stone-50">
+            <Link to={"/detailtempat"}>
+                <div className="w-72 rounded-3xl border border-stone-300 flex-col justify-start items-start inline-flex bg-stone-50">
                     <div className="h-48 w-full relative bg-rose-50">
                         <img
                             src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
