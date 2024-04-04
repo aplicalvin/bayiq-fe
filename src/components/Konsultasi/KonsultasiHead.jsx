@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function KonsultasiHead() {
     return (
         <>
@@ -19,9 +21,12 @@ function KonsultasiHead() {
                     </div>
                 </div>
                 <div className="px-6 py-3 bg-primary-600 hover:bg-primary-700 rounded-xl justify-center items-center inline-flex">
-                    <div className="text-stone-50 text-lg font-normal leading-7">
+                    <Link
+                        to={"/daftarkonsul"}
+                        className="text-stone-50 text-lg font-normal leading-7"
+                    >
                         Daftar Konsultasi
-                    </div>
+                    </Link>
                 </div>
             </div>
             {/* </div> */}

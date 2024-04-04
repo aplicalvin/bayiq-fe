@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Konsultasi7() {
     return (
         <>
@@ -13,11 +15,12 @@ function Konsultasi7() {
                         </div>
                     </div>
                 </div>
-                <div className="px-6 py-3 bg-primary-600 hover:bg-primary-700 rounded-xl justify-center items-center inline-flex">
-                    <div className="text-stone-50 text-lg font-normal leading-7">
-                        Daftar Konsultasi
-                    </div>
-                </div>
+                <Link
+                    to={"/daftarkonsul"}
+                    className="px-6 py-3 bg-primary-600 hover:bg-primary-700 rounded-xl justify-center items-center inline-flex text-stone-50 text-lg font-normal leading-7"
+                >
+                    Daftar Konsultasi
+                </Link>
             </div>
             {/* </div> */}
         </>
