@@ -22,7 +22,7 @@ function KonsultasiHead() {
                 </div>
                 <div className="px-6 py-3 bg-primary-600 hover:bg-primary-700 rounded-xl justify-center items-center inline-flex">
                     <Link
-                        to={"/pilihsesi"}
+                        to={"/daftarkonsul"}
                         className="text-stone-50 text-lg font-normal leading-7"
                     >
                         Daftar Konsultasi

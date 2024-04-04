@@ -16,7 +16,7 @@ function Konsultasi7() {
                     </div>
                 </div>
                 <Link
-                    to={"/pilihsesi"}
+                    to={"/daftarkonsul"}
                     className="px-6 py-3 bg-primary-600 hover:bg-primary-700 rounded-xl justify-center items-center inline-flex text-stone-50 text-lg font-normal leading-7"
                 >
                     Daftar Konsultasi
