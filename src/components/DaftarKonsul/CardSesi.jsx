@@ -63,7 +63,10 @@ function CardSesi() {
                     </div>
 
                     {/* button */}
-                    <Link className="bg-primary-700 text-stone-100 font-semibold text-center py-2 rounded-xl hover:bg-primary-800  my-2">
+                    <Link
+                        to={"/pilihsesi/konfirmasi"}
+                        className="bg-primary-700 text-stone-100 font-semibold text-center py-2 rounded-xl hover:bg-primary-800  my-2"
+                    >
                         Jadwalkan
                     </Link>
                 </div>
