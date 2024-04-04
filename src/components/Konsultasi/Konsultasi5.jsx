@@ -23,7 +23,7 @@ function Konsultasi5() {
                         <TestiCard />
                         <Link
                             className="grid grow shrink basis-0 h-48 px-6 py-3 bg-rose-50 rounded-3xl border border-primary-400 hover:bg-primary-400 justify-start gap-3 bg-primary-100 self-stretch flex-col  text-stone-500 text-xl font-bold leading-7 place-content-center"
-                            to="/login"
+                            to="/testimoni"
                         >
                             Cek Testimoni Lainnya
                         </Link>
