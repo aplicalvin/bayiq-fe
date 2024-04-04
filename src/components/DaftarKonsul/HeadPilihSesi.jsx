@@ -14,7 +14,7 @@ function HeadPilihSesi() {
                             Pilih Jadwal Konsultasi
                         </div>
                     </div>
-                    <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
+                    <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal mx-4">
                         Lorem ipsum dolor sit amet, yamaha semakin di depan,
                         saya suka bermain kata - kata. Flora cantik sekali, saya
                         bingung nulis apa disini.

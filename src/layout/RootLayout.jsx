@@ -9,15 +9,15 @@ const RootLayout = () => {
   useEffect(() => {
     refresh_token();
   }, []);
-  return (
-    <>
-      <div className="bg-stone-100">
-        <NavBar />
-        <Outlet />
-        <Foter />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className="flex flex-col bg-stone-100 min-h-screen cekbang justify-between">
+                <NavBar />
+                <Outlet />
+                <Foter />
+            </div>
+        </>
+    );
 };
 
 export default RootLayout;

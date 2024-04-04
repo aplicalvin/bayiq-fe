@@ -2,6 +2,7 @@ import { Card } from "flowbite-react";
 import Image1 from "../../assets/assets/image/image1.jpg";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { MdWorkHistory } from "react-icons/md";
 
 function CardSesi() {
     return (
@@ -28,21 +29,29 @@ function CardSesi() {
                     <div className="flex p-2 border border-stone-400 rounded-3xl gap-4">
                         <img
                             src={Image1}
-                            className="w-20 h-20 object-cover rounded-full"
+                            className="w-20 h-28 object-cover rounded-2xl"
                             alt=""
                         />
                         <div>
-                            <h1 className="text-xl font-semibold text-stone-800">
+                            <h1 className="text-base md:text-xl font-semibold text-stone-800">
                                 dr. Michelle Alexandra
                             </h1>
                             <p className="text-sm text-stone-500">
                                 Dokter Anak di RS. Ketileng
                             </p>
-                            <div className=" flex gap-2 items-center">
-                                <FaStar className="text-yellow-400" />
-                                <p className="text-sm font-semibold text-stone-700">
-                                    4,9
-                                </p>
+                            <div className="flex gap-4">
+                                <div className=" flex gap-2 items-center">
+                                    <FaStar className="text-yellow-400" />
+                                    <p className="text-sm font-semibold text-stone-700">
+                                        4,9
+                                    </p>
+                                </div>
+                                <div className=" flex gap-2 items-center">
+                                    <MdWorkHistory />
+                                    <p className="text-sm font-semibold text-stone-700">
+                                        10 Tahun
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
