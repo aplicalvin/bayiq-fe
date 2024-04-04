@@ -17,6 +17,7 @@ import DetailDokter from "./components/Informasi/DetailDokter.jsx";
 import DetailTempat from "./components/Informasi/DetailTempat.jsx";
 import Konfirm from "./pages/Konfirm.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
+import Testimoni from "./pages/Testimoni.jsx";
 
 function App() {
     return (
@@ -33,6 +34,7 @@ function App() {
                     <Route path="/detaildokter" element={<DetailDokter />} />
                     <Route path="/detailtempat" element={<DetailTempat />} />
                     <Route path="/komunitas" element={<Komunitas />} />
+                    <Route path="/testimoni" element={<Testimoni />} />
                     <Route path="/roadmap" element={<Roadmap />} />
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="*" element={<NotFound />} />{" "}
