@@ -7,7 +7,7 @@ import DashHistory from "./DashHistory";
 function DashboardTab() {
     return (
         <>
-            <div>
+            <div className=" w-full max-w-3xl mx-auto pb-12">
                 <Tabs aria-label="Tabs with underline" style="underline">
                     <Tabs.Item active title="Profile" icon={HiUserCircle}>
                         <DashProfile />
