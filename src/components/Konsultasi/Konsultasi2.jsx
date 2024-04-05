@@ -1,7 +1,7 @@
 function Konsultasi2() {
     return (
         <>
-            <div className="flex justify-center w-full h-fit bg-primary-50  place-self-center">
+            <div className="flex justify-center w-full h-fit bg-primary-400  place-self-center">
                 <div className="grid lg:inline-flex gap-16 max-w-[1440px] lg:w-full px-6 md:px-20 pt-12 justify-between">
                     <div className="w-full max-w-lg flex-col justify-start items-center gap-3 inline-flex">
                         <div className="self-stretch flex-col justify-start items-center gap-1 flex">
