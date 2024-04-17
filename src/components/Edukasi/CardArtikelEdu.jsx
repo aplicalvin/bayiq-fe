@@ -7,7 +7,7 @@ import Image1 from "../../assets/assets/image/image1.jpg";
 function CardArtEdu() {
     return (
         <>
-            <Link to={"/login"}>
+            <Link to={"/article"}>
                 <div className="w-full lg:w-96 rounded-3xl border border-stone-300 flex-col justify-start items-start inline-flex bg-stone-50">
                     <div className="h-48 w-full relative bg-rose-50">
                         <img
