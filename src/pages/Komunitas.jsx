@@ -12,13 +12,15 @@ function Komunitas() {
                                     Komunitas
                                 </div>
                                 <div className="self-stretch text-center text-stone-900 text-4xl font-bold leading-10">
-                                    Bergabung bersama komunitas yang saling
-                                    mendukung
+                                    Temukan Dukungan Luar Biasa di Komunitas
+                                    Kami!
                                 </div>
                             </div>
                             <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                                Lalalalallalalalalalallalalalalalalaal flora
-                                cantik banget aaaaa
+                                Gabunglah dengan Komunitas Orang Tua Kami untuk
+                                Mendapatkan Dukungan Emosional, Pertemanan, dan
+                                Pengetahuan yang Luar Biasa dalam Perjalanan
+                                Orang Tua Anda!
                             </div>
                         </div>
                     </div>

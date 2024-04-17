@@ -11,13 +11,12 @@ function InformasiHead() {
                             Informasi
                         </div>
                         <div className="self-stretch text-center text-stone-900 text-4xl font-bold leading-10">
-                            Cari dokter, Obat, Apotek terdekat anda Disini!
+                            Temukan Layanan Kesehatan Terbaik di Dekat Anda!
                         </div>
                     </div>
                     <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                        Tahukah anda, bahwa usia 0 - 3 merupakan usia rawan.
-                        Karena mereka masih bergantung sama kamu ya bang. .jadi
-                        tolonglah yang bener kalau ngurus anak!
+                        Akses Cepat ke Dokter, Bidan, dan Rumah Sakit Terdekat
+                        dengan Teknologi GPS Kami yang Mudah Digunakan.
                     </div>
                 </div>
                 <div className="flex h-fit">

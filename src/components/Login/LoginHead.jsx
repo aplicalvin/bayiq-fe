@@ -14,13 +14,13 @@ function LoginHead() {
                                 Masuk
                             </div>
                             <div className="self-stretch text-center text-stone-900 text-3xl font-bold leading-10">
-                                Selamat datang kembali
+                                Selamat Datang Kembali, Parents!
                             </div>
                         </div>
                         <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                            Tersesat dalam persiapan menyambut kelahiran si
-                            kecil? Jangan biarkan kekhawatiran membebani Anda.
-                            Ayo konsultasikan dengan para ahli!
+                            Akses Akun Anda untuk Melanjutkan Perjalanan
+                            Menyenangkan dalam Mengurus Bayi Anda dengan bantuan
+                            Aplikasi Kami.
                         </div>
                     </div>
                     <div>

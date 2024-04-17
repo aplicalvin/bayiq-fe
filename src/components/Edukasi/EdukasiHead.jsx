@@ -11,14 +11,14 @@ function EdukasiHead() {
                             Edukasi
                         </div>
                         <div className="self-stretch text-center text-stone-900 text-4xl font-bold leading-10">
-                            Ketahui apapun yang dibutuhkan untuk tumbuh dan
-                            kembang si kecil!
+                            Membina, mengasah, dan mengasuh potensi si kecil
+                            dengan kebutuhan yang tepat
                         </div>
                     </div>
                     <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                        Tahukah anda, bahwa usia 0 - 3 merupakan usia rawan.
-                        Karena mereka masih bergantung sama kamu ya bang. .jadi
-                        tolonglah yang bener kalau ngurus anak!
+                        Usia 0-3 tahun adalah usia yang rawan untuk si kecil.
+                        karna pada usia ini si kecil mengalami pertumbuhan yang
+                        pesat dan membutuhkan perawatan yang tepat.
                     </div>
                 </div>
                 {/* Search Button */}
