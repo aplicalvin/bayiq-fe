@@ -31,7 +31,7 @@ function Home2() {
                     </div>
 
                     {/* image */}
-                    <div className="mx-auto md:mx-0">
+                    <div className="mx-auto md:mx-0 md:order-2">
                         <img src={ImgHome2} alt="" />
                     </div>
                 </div>
