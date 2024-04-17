@@ -31,8 +31,8 @@ function Foter() {
                     <Footer.Copyright
                         className="text-stone-50"
                         href=""
-                        by="Vidzi™"
-                        year={2022}
+                        by="Vidzi"
+                        year={2024}
                     />
                 </div>
             </Footer>
