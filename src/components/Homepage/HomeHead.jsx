@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function HomeHead() {
     return (
         <>
@@ -8,7 +10,7 @@ function HomeHead() {
                         <div className="self-stretch text-center text-primary-600 text-lg font-bold leading-7">
                             Tahukah anda?
                         </div>
-                        <div className="grid gap-4 center">
+                        <div className="grid md:flex gap-4 center">
                             <div className="self-stretch text-center text-stone-900 text-8xl font-bold ">
                                 66.2%
                             </div>
@@ -19,16 +21,18 @@ function HomeHead() {
                         </div>
                     </div>
                     <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                        Dari kegembiraan hingga kekhawatiran, kami memahami
-                        perasaan Anda sebagai orang tua. Dengan layanan
-                        konsultasi kami, Anda tidak pernah merasa sendiri dalam
-                        perjalanan mengurus si kecil.
+                        Tahukah anda? Perjalanan mendidik anak tidak perlu
+                        dilakukan sendirian. Manfaatkanlah fitur konsultasi kami
+                        untuk mendapatkan bimbingan dan dukungan ahli dalam
+                        membangun masa depan gemilang anak-anak Anda.
                     </div>
-                    <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
-                        Sebagai Orang Tua, Kita Berperan Penting dalam membentuk
-                        masa depan anak-anak kita, setiap langkah yang kita
-                        ambil menjadi investasi berharga. Mari bergabung dalam
-                        perjalanan ini bersama-sama.
+                    <div>
+                        <Link
+                            className="flex py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
+                            to="/konsultasi"
+                        >
+                            Konsultasi Sekarang
+                        </Link>
                     </div>
                 </div>
             </div>
