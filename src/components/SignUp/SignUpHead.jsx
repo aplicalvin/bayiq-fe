@@ -20,7 +20,8 @@ function LoginHead() {
                         <div className="self-stretch text-center text-stone-500 text-base font-normal leading-normal">
                             Tersesat dalam persiapan menyambut kelahiran si
                             kecil? Jangan biarkan kekhawatiran membebani Anda.
-                            Ayo konsultasikan dengan para ahli!
+                            Bergabunglah dengan kami dan dapatkan bimbingan
+                            langsung dari para ahli!
                         </div>
                     </div>
                     <div>
