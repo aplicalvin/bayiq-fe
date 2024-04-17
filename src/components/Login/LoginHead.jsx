@@ -1,4 +1,4 @@
-import Image1 from "../../assets/assets/image/image1.jpg";
+import Pattern1 from "../../assets/assets/image/pattern1.png";
 import LoginForm from "./LoginForm";
 
 function LoginHead() {
@@ -29,7 +29,7 @@ function LoginHead() {
                 </div>
                 <div className="w-full h-full ">
                     <img
-                        src={Image1}
+                        src={Pattern1}
                         className="w-full h-full object-cover"
                         alt=""
                     />
