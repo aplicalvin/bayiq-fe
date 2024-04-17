@@ -10,7 +10,7 @@ function HomeBanner() {
                 <div className="flex w-full justify-between border-t border-gray-200 bg-primary-500 py-3">
                     <div className="mx-auto flex items-center pl-6">
                         <p className="flex items-center text-sm font-normal text-gray-500 ">
-                            <span className="flex gap-3 text-xs md:text-base text-stone-100 place-items-center">
+                            <span className="flex gap-3 text-xs md:text-base text-stone-500 place-items-center">
                                 Anda orang tua baru yang perlu panduan?
                                 <Link
                                     to="/roadmap"
