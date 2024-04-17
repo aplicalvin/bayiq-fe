@@ -18,6 +18,7 @@ import DetailTempat from "./components/Informasi/DetailTempat.jsx";
 import Konfirm from "./pages/Konfirm.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Testimoni from "./pages/Testimoni.jsx";
+import DetailEdu from "./pages/DetailEdu.jsx";
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                     <Route path="/komunitas" element={<Komunitas />} />
                     <Route path="/testimoni" element={<Testimoni />} />
                     <Route path="/roadmap" element={<Roadmap />} />
+                    <Route path="/article/" element={<DetailEdu />} />
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="*" element={<NotFound />} />{" "}
                 </Route>
