@@ -1,12 +1,4 @@
 import { Footer } from "flowbite-react";
-import {
-    BsDribbble,
-    BsFacebook,
-    BsGithub,
-    BsInstagram,
-    BsTwitter,
-} from "react-icons/bs";
-import logo from "../assets/assets/logo.png";
 
 function Foter() {
     return (
@@ -25,7 +17,7 @@ function Foter() {
                     <Footer.Copyright
                         className="text-stone-50"
                         href=""
-                        by="Vidzi"
+                        by="Victoria"
                         year={2024}
                     />
                 </div>

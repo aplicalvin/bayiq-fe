@@ -4,10 +4,9 @@ import PropTypes from "prop-types"; // Import PropTypes for prop validation
 import { Sidebar, TextInput, DarkThemeToggle, Navbar } from "flowbite-react";
 import {
     HiHome,
-    HiLogin,
-    HiPencil,
+    HiSpeakerphone,
+    HiPencilAlt,
     HiSearch,
-    HiShoppingBag,
     HiUsers,
     HiMenu,
 } from "react-icons/hi";
@@ -49,42 +48,44 @@ const AdmSidebar = ({ isSidebarOpen }) => {
                                 Dashboard
                             </Sidebar.Item>
                             <Sidebar.Item
-                                href="/e-commerce/products"
-                                icon={HiShoppingBag}
+                                href="/admin/list"
+                                icon={HiSpeakerphone}
                                 className={
-                                    "/e-commerce/products" === currentPage
+                                    "/admin/list" === currentPage
                                         ? "dark:bg-gray-700"
                                         : ""
                                 }
                             >
-                                Products
+                                Admin
                             </Sidebar.Item>
                             <Sidebar.Item
-                                href="/admin/dashboard/"
+                                href="/admin/member/"
                                 icon={HiUsers}
                                 className={
-                                    "/admin/dashboard/" === currentPage
+                                    "/admin/member/" === currentPage
                                         ? "dark:bg-gray-700"
                                         : ""
                                 }
                             >
-                                Users list
+                                Member
                             </Sidebar.Item>
                             <Sidebar.Item
-                                href="/admin/dashboard/"
-                                icon={HiLogin}
+                                href="/admin/post/"
+                                icon={HiPencilAlt}
                             >
-                                Sign in
-                            </Sidebar.Item>
-                            <Sidebar.Item
-                                href="/admin/dashboard/"
-                                icon={HiPencil}
-                            >
-                                Sign up
+                                Post
                             </Sidebar.Item>
                         </Sidebar.ItemGroup>
                         <Sidebar.ItemGroup>
-                            <Sidebar.Item icon="">Halo</Sidebar.Item>
+                            <Sidebar.Item icon="">Logout</Sidebar.Item>
+                        </Sidebar.ItemGroup>
+                        <Sidebar.ItemGroup>
+                            <div className="flex items-center justify-between text-white p-2 ">
+                                {/* <Sidebar.Item icon=""> */}
+                                <p>Change Theme</p>
+                                <DarkThemeToggle />
+                                {/* </Sidebar.Item> */}
+                            </div>
                         </Sidebar.ItemGroup>
                     </Sidebar.Items>
                 </div>
