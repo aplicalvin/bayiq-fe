@@ -19,6 +19,8 @@ import Konfirm from "./pages/Konfirm.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Testimoni from "./pages/Testimoni.jsx";
 import DetailEdu from "./pages/DetailEdu.jsx";
+import AdminLayout from "./layout/AdminLayout.jsx";
+import AdmDashboard from "./admin/AdmDashboard.jsx";
 
 function App() {
     return (
@@ -44,6 +46,9 @@ function App() {
                 <Route path="/" element={<LoginLayout />}>
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<SignUp />} />
+                </Route>
+                <Route path="/admin/" element={<AdminLayout />}>
+                    <Route path="/admin/dashboard" element={<AdmDashboard />} />
                 </Route>
             </Routes>
         </Router>
