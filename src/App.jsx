@@ -23,6 +23,8 @@ import AdminLayout from "./layout/AdminLayout.jsx";
 import AdmDashboard from "./admin/AdmDashboard.jsx";
 import DrDashboard from "./dokter/DrDashboard.jsx";
 import DrinLayout from "./layout/DrLayout.jsx";
+import AppLayout from "./layout/AppLayout.jsx";
+import AppDashboard from "./app/AppDashboard.jsx";
 
 function App() {
     return (
@@ -60,6 +62,9 @@ function App() {
                         path="/hospital/dashboard"
                         element={<DrDashboard />}
                     />
+                </Route>
+                <Route path="/app/" element={<AppLayout />}>
+                    <Route path="/app/" element={<AppDashboard />} />
                 </Route>
             </Routes>
         </Router>
