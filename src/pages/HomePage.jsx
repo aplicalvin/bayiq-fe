@@ -1,4 +1,4 @@
-import HomeBanner from "../components/Homepage/Banner";
+// import HomeBanner from "../components/Homepage/Banner";
 import Home2 from "../components/Homepage/Home2";
 import Home3 from "../components/Homepage/Home3";
 import Home4 from "../components/Homepage/Home4";
@@ -8,7 +8,7 @@ import HomeHead from "../components/Homepage/HomeHead";
 function HomePage() {
     return (
         <>
-            <HomeBanner />
+            {/* <HomeBanner /> */}
             <HomeHead />
             <Home2 />
             <Home3 />

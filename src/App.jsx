@@ -21,6 +21,8 @@ import Testimoni from "./pages/Testimoni.jsx";
 import DetailEdu from "./pages/DetailEdu.jsx";
 import AdminLayout from "./layout/AdminLayout.jsx";
 import AdmDashboard from "./admin/AdmDashboard.jsx";
+import DrDashboard from "./dokter/DrDashboard.jsx";
+import DrinLayout from "./layout/DrLayout.jsx";
 
 function App() {
     return (
@@ -49,6 +51,15 @@ function App() {
                 </Route>
                 <Route path="/admin/" element={<AdminLayout />}>
                     <Route path="/admin/dashboard" element={<AdmDashboard />} />
+                </Route>
+                <Route path="/dokter/" element={<DrinLayout />}>
+                    <Route path="/dokter/dashboard" element={<DrDashboard />} />
+                </Route>
+                <Route path="/hospital/" element={<DrinLayout />}>
+                    <Route
+                        path="/hospital/dashboard"
+                        element={<DrDashboard />}
+                    />
                 </Route>
             </Routes>
         </Router>
