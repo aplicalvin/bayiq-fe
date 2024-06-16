@@ -6,7 +6,7 @@ import { Notification } from "iconsax-react";
 function AppDashboard() {
     return (
         <>
-            <div className="grid gap-4">
+            <div className="grid gap-4  p-4">
                 <header className="grid grid-flow-col justify-between items-center">
                     <img src={Logo} className="w-24" alt="" />
                     <Link to={"/app/"}>

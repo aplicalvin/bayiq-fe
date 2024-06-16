@@ -6,7 +6,7 @@
 function AppCommunity() {
     return (
         <>
-            <div className="grid gap-4">
+            <div className="grid gap-4 p-4">
                 <header className="flex gap-4 items-center">
                     {/* <img src={Logo} className="w-24" alt="" /> */}
                     <h1 className="text-stone-700 font-bold text-xl">

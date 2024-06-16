@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import RootLayout from "./layout/RootLayout.jsx";
@@ -26,6 +27,7 @@ import DrinLayout from "./layout/DrLayout.jsx";
 import AppLayout from "./layout/AppLayout.jsx";
 import AppDashboard from "./app/AppDashboard.jsx";
 import AppCommunity from "./app/AppCommunity.jsx";
+import AppProfile from "./app/AppProfile.jsx";
 
 function App() {
     return (
@@ -67,6 +69,7 @@ function App() {
                 <Route path="/app/" element={<AppLayout />}>
                     <Route path="/app/" element={<AppDashboard />} />
                     <Route path="/app/community" element={<AppCommunity />} />
+                    <Route path="/app/profile" element={<AppProfile />} />
                 </Route>
             </Routes>
         </Router>

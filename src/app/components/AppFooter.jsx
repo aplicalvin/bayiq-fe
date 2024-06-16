@@ -41,7 +41,7 @@ function AppFooter() {
                     <p className="text-xs ">Pesan</p>
                 </Link>
                 <Link
-                    to={"/app/"}
+                    to={"/app/profile"}
                     className="grid gap-1 self-center w-16 text-center text-stone-700 hover:text-stone-900"
                 >
                     <Profile
