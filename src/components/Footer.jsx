@@ -12,14 +12,13 @@ function Foter() {
                             <Footer.Link href="#">Licensing</Footer.Link>
                             <Footer.Link href="#">Contact</Footer.Link>
                         </Footer.LinkGroup>
+                        <Footer.Copyright
+                            className="text-stone-50"
+                            href=""
+                            by="Victoria"
+                            year={2024}
+                        />
                     </div>
-                    <Footer.Divider />
-                    <Footer.Copyright
-                        className="text-stone-50"
-                        href=""
-                        by="Victoria"
-                        year={2024}
-                    />
                 </div>
             </Footer>
         </>
