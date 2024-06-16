@@ -11,7 +11,7 @@ import {
     HiMenu,
 } from "react-icons/hi";
 import Footer from "../components/Footer"; // Correct import statement
-import Michie from "../assets/assets/image/image3.png";
+import Michie from "../assets/assets/image/pattern-1.png";
 
 const AdmSidebar = ({ isSidebarOpen }) => {
     const [currentPage, setCurrentPage] = useState("");
@@ -144,7 +144,7 @@ const AdminLayout = () => {
                     <AdmSidebar isSidebarOpen={isSidebarOpen} />
                 </div>
                 <div
-                    className="w-full bg-stone-200 dark:bg-stone-800 min-h-screen justify-between bg-cover"
+                    className="w-full bg-stone-200 dark:bg-stone-800 min-h-screen justify-between bg-repeat"
                     style={{ backgroundImage: `url(${Michie})` }}
                 >
                     <div className="w-full h-full bg-gray-50/60 p-4">

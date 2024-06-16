@@ -25,6 +25,7 @@ import DrDashboard from "./dokter/DrDashboard.jsx";
 import DrinLayout from "./layout/DrLayout.jsx";
 import AppLayout from "./layout/AppLayout.jsx";
 import AppDashboard from "./app/AppDashboard.jsx";
+import AppCommunity from "./app/AppCommunity.jsx";
 
 function App() {
     return (
@@ -65,6 +66,7 @@ function App() {
                 </Route>
                 <Route path="/app/" element={<AppLayout />}>
                     <Route path="/app/" element={<AppDashboard />} />
+                    <Route path="/app/community" element={<AppCommunity />} />
                 </Route>
             </Routes>
         </Router>
