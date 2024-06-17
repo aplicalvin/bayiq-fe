@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Edit2 } from "iconsax-react";
 import Pap from "./../assets/assets/image/image1.jpg";
 import Bg from "./../assets/assets/image/pattern-1.png";
+import AppProfileInfo from "./Profile/AppProfileInfo";
 
 function AppProfile() {
     return (
@@ -24,7 +25,7 @@ function AppProfile() {
                     <h1 className="text-2xl font-bold text-center">
                         Reno Aderelyan
                     </h1>
-                    <Link>
+                    <Link to={"/app/profile/edit/"}>
                         <Edit2
                             size="24"
                             className="text-stone-400"
@@ -39,20 +40,7 @@ function AppProfile() {
                 </div>
             </div>
             <hr className="border-2 border-stone-200" />
-            <div className="grid gap-1">
-                <div className="flex justify-between text-stone-600 text-sm border-b border-stone-300 px-2 py-2">
-                    <p className=" grid-cols-1">username </p>
-                    <p className=" font-semibold">@renoaderelyan</p>
-                </div>
-                <div className="flex justify-between text-stone-600 text-sm border-b border-stone-300 px-2 py-2">
-                    <p className=" grid-cols-1">tanggal lahir</p>
-                    <p className=" font-semibold">27 Mei 1997</p>
-                </div>
-                <div className="flex justify-between text-stone-600 text-sm border-b border-stone-300 px-2 py-2">
-                    <p className="">No HP</p>
-                    <p className="font-semibold">+628123456789</p>
-                </div>
-            </div>
+            <AppProfileInfo />
             {/* END Text dibawah Foto */}
         </>
     );

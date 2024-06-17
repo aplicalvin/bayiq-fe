@@ -30,7 +30,7 @@ function AppFooter() {
                     <p className="text-xs ">Komunitas</p>
                 </Link>
                 <Link
-                    to={"/app/"}
+                    to={"/app/message"}
                     className="grid gap-1 self-center w-16 text-center text-stone-700 hover:text-stone-900"
                 >
                     <Message

@@ -28,6 +28,9 @@ import AppLayout from "./layout/AppLayout.jsx";
 import AppHome from "./app/AppHome.jsx";
 import AppCommunity from "./app/AppCommunity.jsx";
 import AppProfile from "./app/AppProfile.jsx";
+import AppProfileEdit from "./app/Profile/AppProfileEdit.jsx";
+import AppNotif from "./app/AppNotif.jsx";
+import AppMessage from "./app/AppMessage.jsx";
 
 function App() {
     return (
@@ -65,8 +68,14 @@ function App() {
                 </Route>
                 <Route path="/app/" element={<AppLayout />}>
                     <Route path="/app/" element={<AppHome />} />
+                    <Route path="/app/notification" element={<AppNotif />} />
+                    <Route path="/app/message" element={<AppMessage />} />
                     <Route path="/app/community" element={<AppCommunity />} />
                     <Route path="/app/profile" element={<AppProfile />} />
+                    <Route
+                        path="/app/profile/edit"
+                        element={<AppProfileEdit />}
+                    />
                 </Route>
             </Routes>
         </Router>

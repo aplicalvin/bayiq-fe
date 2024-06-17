@@ -11,7 +11,7 @@ function AppHome() {
             <div className="grid gap-4  p-4">
                 <header className="grid grid-flow-col justify-between items-center">
                     <img src={Logo} className="w-24" alt="" />
-                    <Link to={"/app/"}>
+                    <Link to={"/app/notification"}>
                         <Notification
                             size="32"
                             variant="Bulk"
