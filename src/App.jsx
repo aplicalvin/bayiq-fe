@@ -25,7 +25,7 @@ import AdmDashboard from "./admin/AdmDashboard.jsx";
 import DrDashboard from "./dokter/DrDashboard.jsx";
 import DrinLayout from "./layout/DrLayout.jsx";
 import AppLayout from "./layout/AppLayout.jsx";
-import AppDashboard from "./app/AppDashboard.jsx";
+import AppHome from "./app/AppHome.jsx";
 import AppCommunity from "./app/AppCommunity.jsx";
 import AppProfile from "./app/AppProfile.jsx";
 
@@ -55,19 +55,16 @@ function App() {
                     <Route path="/signup" element={<SignUp />} />
                 </Route>
                 <Route path="/admin/" element={<AdminLayout />}>
-                    <Route path="/admin/dashboard" element={<AdmDashboard />} />
+                    <Route path="/admin/" element={<AdmDashboard />} />
                 </Route>
                 <Route path="/dokter/" element={<DrinLayout />}>
-                    <Route path="/dokter/dashboard" element={<DrDashboard />} />
+                    <Route path="/dokter/" element={<DrDashboard />} />
                 </Route>
                 <Route path="/hospital/" element={<DrinLayout />}>
-                    <Route
-                        path="/hospital/dashboard"
-                        element={<DrDashboard />}
-                    />
+                    <Route path="/hospital/" element={<DrDashboard />} />
                 </Route>
                 <Route path="/app/" element={<AppLayout />}>
-                    <Route path="/app/" element={<AppDashboard />} />
+                    <Route path="/app/" element={<AppHome />} />
                     <Route path="/app/community" element={<AppCommunity />} />
                     <Route path="/app/profile" element={<AppProfile />} />
                 </Route>

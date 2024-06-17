@@ -2,8 +2,10 @@
 import Logo from "./../assets/assets/logo.png";
 import { Link } from "react-router-dom";
 import { Notification } from "iconsax-react";
+import Greetings from "./Home/Greetings";
+import AppMenu from "./Home/AppMenu";
 
-function AppDashboard() {
+function AppHome() {
     return (
         <>
             <div className="grid gap-4  p-4">
@@ -18,18 +20,13 @@ function AppDashboard() {
                     </Link>
                 </header>
                 {/* Greetings */}
-                <div className="grid gap-1">
-                    <h1 className="text-stone-700 font-light text-md">
-                        Selamat Datang,
-                    </h1>
-                    <h1 className="text-stone-900 font-bold text-2xl">
-                        Reno Aderelyan
-                    </h1>
-                </div>
-                {/* Greetings */}
+                <Greetings />
+                {/* Menu */}
+                <AppMenu />
+                {/* Menu */}
             </div>
         </>
     );
 }
 
-export default AppDashboard;
+export default AppHome;
