@@ -3,6 +3,8 @@
 // import { Link } from "react-router-dom";
 // import { Notification } from "iconsax-react";
 
+import AppListCom from "./community/AppListCom";
+
 function AppCommunity() {
     return (
         <>
@@ -14,7 +16,7 @@ function AppCommunity() {
                     </h1>
                 </header>
                 <hr className="text-stone-600 border border-primary-200" />
-                {/* Greetings */}
+                {/* Cari Komunitas */}
                 <div className="grid gap-1">
                     {/* Search untuk komunitas */}
                     <form action="">
@@ -30,12 +32,13 @@ function AppCommunity() {
                                 type="submit"
                                 className="bg-primary-500 hover:bg-primary-600 px-4 text-white font-semibold rounded-lg"
                             >
-                                Search
+                                <p className="text-sm">Cari</p>
                             </button>
                         </div>
                     </form>
                 </div>
-                {/* Greetings */}
+                {/* Cari Komunitas */}
+                <AppListCom />
             </div>
         </>
     );

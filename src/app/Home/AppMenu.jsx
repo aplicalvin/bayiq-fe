@@ -26,7 +26,7 @@ function TheMenu({ Logos, Text }) {
 function AppMenu() {
     return (
         <div className="grid gap-1">
-            <h1 className="font-semibold text-xl text-stone-700">Menu</h1>
+            <h1 className="font-semibold text-base text-stone-700">Menu</h1>
             <div className="grid grid-cols-3">
                 <TheMenu Logos={Menu1} Text="Perawatan Bayi" />
                 <TheMenu Logos={Menu1} Text="Perawatan Bayi" />
