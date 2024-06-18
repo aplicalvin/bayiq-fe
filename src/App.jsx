@@ -32,6 +32,8 @@ import AppProfileEdit from "./app/Profile/AppProfileEdit.jsx";
 import AppNotif from "./app/AppNotif.jsx";
 import AppMessage from "./app/AppMessage.jsx";
 import AppComDetail from "./app/community/AppComDetail.jsx";
+import AppLayoutD from "./layout/AppLayoutD.jsx";
+import AppMessageDoctor from "./app/Message/examplechat/AppMessageDoctor.jsx";
 
 function App() {
     return (
@@ -70,7 +72,6 @@ function App() {
                 <Route path="/app/" element={<AppLayout />}>
                     <Route path="/app/" element={<AppHome />} />
                     <Route path="/app/notification" element={<AppNotif />} />
-                    <Route path="/app/message" element={<AppMessage />} />
                     <Route path="/app/community" element={<AppCommunity />} />
                     <Route
                         path="/app/community/kariadi"
@@ -81,6 +82,18 @@ function App() {
                         path="/app/profile/edit"
                         element={<AppProfileEdit />}
                     />
+                </Route>
+                <Route path="/app/" element={<AppLayoutD />}>
+                    <Route path="/app/message" element={<AppMessage />}>
+                        <Route
+                            path="/app/message/michie"
+                            element={<AppMessageDoctor />}
+                        />
+                        <Route
+                            path="/app/message/kariadi"
+                            element={<AppMessageDoctor />}
+                        />
+                    </Route>
                 </Route>
             </Routes>
         </Router>

@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const isiChatnya = [
     {
         chatKey: 1,
+        chatUsername: "kariadi",
         chatType: "community",
         chatImg: comuImg2,
         chatName: "Komunitas RS. Kariadi Bg",
@@ -18,6 +19,7 @@ const isiChatnya = [
     },
     {
         chatKey: 2,
+        chatUsername: "michie",
         chatType: "personal",
         chatImg: comuImg,
         chatName: "Dr. Michelle Alexandra",
@@ -32,6 +34,8 @@ const isiChatnya = [
 function AppChatList({
     // eslint-disable-next-line react/prop-types
     chatType,
+    // eslint-disable-next-line react/prop-types
+    chatUsername,
     // eslint-disable-next-line react/prop-types
     chatImg,
     // eslint-disable-next-line react/prop-types
@@ -51,7 +55,7 @@ function AppChatList({
     const isreadbg = chatIsRead ? "font-thin" : "font-bold";
 
     return (
-        <Link to={"/app/community/kariadi"}>
+        <Link to={`/app/message/${chatUsername}`}>
             <div
                 className={`flex gap-2 border-b border-stone-300 px-4 py-3 w-full hover:bg-stone-200 items-center ${isreadbg}`}
             >
@@ -99,6 +103,7 @@ function AppMessageList() {
                     chatLastTime={spillchat.chatLastTime}
                     chatIsRead={spillchat.chatIsRead}
                     chatCountUnread={spillchat.chatCountUnread}
+                    chatUsername={spillchat.chatUsername}
                 />
             ))}
         </div>
