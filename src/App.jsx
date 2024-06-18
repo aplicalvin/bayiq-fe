@@ -31,6 +31,7 @@ import AppProfile from "./app/AppProfile.jsx";
 import AppProfileEdit from "./app/Profile/AppProfileEdit.jsx";
 import AppNotif from "./app/AppNotif.jsx";
 import AppMessage from "./app/AppMessage.jsx";
+import AppComDetail from "./app/community/AppComDetail.jsx";
 
 function App() {
     return (
@@ -71,6 +72,10 @@ function App() {
                     <Route path="/app/notification" element={<AppNotif />} />
                     <Route path="/app/message" element={<AppMessage />} />
                     <Route path="/app/community" element={<AppCommunity />} />
+                    <Route
+                        path="/app/community/kariadi"
+                        element={<AppComDetail />}
+                    />
                     <Route path="/app/profile" element={<AppProfile />} />
                     <Route
                         path="/app/profile/edit"

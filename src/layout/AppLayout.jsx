@@ -12,7 +12,7 @@ function AppLayout() {
             >
                 <div className="w-full h-full bg-stone-400/70">
                     <div className="max-w-sm mx-auto bg-primary-50 overflow-y-scroll h-screen">
-                        <div>
+                        <div className="mb-32">
                             <Outlet />
                         </div>
                         <div className="absolute bottom-0 z-50 max-w-sm w-full bg-white px-8 py-6">
