@@ -9,23 +9,10 @@ function AppMessage() {
         <>
             <div className="flex">
                 <div className="relative bg-white max-w-96 w-full overflow-y-scroll h-screen border-r">
-                    <div className="fixed h-16 w-full bg-white pt-4">
+                    <div className="fixed h-20 max-w-screen bg-white pt-4 border-b border-stone-300">
                         <AppHeader1 pageTitle={"Pesan"} />
                     </div>
                     <div className="bg-white mt-20">
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
-                        <AppMessageList />
                         <AppMessageList />
                     </div>
                 </div>
