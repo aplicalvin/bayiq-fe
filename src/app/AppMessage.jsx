@@ -7,13 +7,32 @@ import { Outlet } from "react-router-dom";
 function AppMessage() {
     return (
         <>
-            <div className="flex w-full h-full">
-                <div className="bg-primary-100 max-w-96 w-full">
-                    <AppHeader1 pageTitle={"Pesan"} />
-                    <AppMessageList />
+            <div className="flex">
+                <div className="relative bg-white max-w-96 w-full overflow-y-scroll h-screen border-r">
+                    <div className="fixed h-16 w-full bg-white pt-4">
+                        <AppHeader1 pageTitle={"Pesan"} />
+                    </div>
+                    <div className="bg-white mt-20">
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                        <AppMessageList />
+                    </div>
                 </div>
-                <div className="bg-primary-50 w-full">
-                    <Outlet />
+                <div className="flex w-full overflow-y-scroll h-screen bg-primary-50">
+                    <div className="bg-primary-50 w-full">
+                        <Outlet />
+                    </div>
                 </div>
             </div>
         </>
