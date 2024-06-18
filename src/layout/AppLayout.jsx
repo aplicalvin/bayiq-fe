@@ -15,7 +15,7 @@ function AppLayout() {
                         <div className="mb-32">
                             <Outlet />
                         </div>
-                        <div className="absolute bottom-0 z-50 max-w-sm w-full bg-white px-8 py-6">
+                        <div className="absolute bottom-0 mb-16 z-50 max-w-sm w-full bg-white px-8 py-6">
                             <AppFooter />
                         </div>
                     </div>
