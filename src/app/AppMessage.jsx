@@ -7,19 +7,25 @@ import { Outlet } from "react-router-dom";
 function AppMessage() {
     return (
         <>
-            <div className="flex">
-                <div className="relative bg-white max-w-96 w-full overflow-y-scroll h-screen border-r">
-                    <div className="fixed h-20 max-w-screen bg-white pt-4 border-b border-stone-300">
+            <div className="flex h-screen">
+                {/* Section paling kiri */}
+                <div className="flex flex-col bg-white w-1/4 border-r border-stone-300">
+                    <div className="h-fit">
                         <AppHeader1 pageTitle={"Pesan"} />
                     </div>
-                    <div className="bg-white mt-20">
+                    <div className="overflow-auto ">
                         <AppMessageList />
                     </div>
                 </div>
-                <div className="flex w-full overflow-y-scroll h-screen bg-primary-50">
-                    <div className="bg-primary-50 w-full">
-                        <Outlet />
-                    </div>
+
+                {/* Section tengah */}
+                <div className="flex flex-col w-1/2 bg-primary-50">
+                    <Outlet />
+                </div>
+
+                {/* Section paling kanan */}
+                <div className="flex flex-col bg-white w-1/4 border-l border-stone-300">
+                    <AppMessageList />
                 </div>
             </div>
         </>

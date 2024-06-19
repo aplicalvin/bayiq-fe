@@ -7,7 +7,7 @@ import ChatInput from "./ChatInput";
 function AppMessageHeader() {
     return (
         <>
-            <header className="fixed w-full flex h-20 gap-4 items-center border-b border-stone-200 py-4 px-6 bg-stone-100">
+            <header className="flex h-20 gap-4 items-center border-b border-stone-200 py-4 px-6 bg-stone-100">
                 <div className="flex gap-1 min-w-12 min-h-12 max-w-12 max-h-12">
                     <img
                         src={ImgnyaBG}
@@ -29,21 +29,23 @@ function AppMessageHeader() {
 function AppMessageDoctor() {
     return (
         <>
-            <div className="flex flex-col h-screen">
+            <div className="flex flex-col h-screen w-full ">
                 {/* Header */}
-                <div className=" w-full fixed top-0 z-10">
+                <div className="h-fit top-0 z-10 w-full ">
                     <AppMessageHeader />
                 </div>
 
                 {/* Chat Messages */}
-                <div className=" bg-stone-50 pt-20 pb-24 overflow-auto">
+                <div className=" bg-stone-50 py-2 overflow-auto">
                     <div className="mt-4">
                         <AppChat />
                     </div>
-                </div>
 
-                {/* Input Field */}
-                <ChatInput />
+                    {/* Input Field */}
+                </div>
+                <div className="h-fit bottom-0 bg-neutral-300 ">
+                    <ChatInput />
+                </div>
             </div>
         </>
     );
