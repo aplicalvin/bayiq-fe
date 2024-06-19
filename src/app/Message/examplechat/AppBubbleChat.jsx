@@ -17,7 +17,7 @@ function AppBubbleChat({ type, message }) {
         return (
             <>
                 <div className="grid ">
-                    <div className="justify-self-end max-w-sm mx-4 px-4 py-2 text-stone-600 text-left text-sm rounded-t-xl rounded-l-xl border border-stone-400">
+                    <div className="justify-self-end max-w-sm mx-4 px-4 py-2 text-stone-600 text-left text-sm rounded-t-xl rounded-l-xl border border-stone-400 bg-white">
                         {message}
                     </div>
                 </div>

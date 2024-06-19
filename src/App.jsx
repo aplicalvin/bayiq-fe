@@ -33,7 +33,7 @@ import AppNotif from "./app/AppNotif.jsx";
 import AppMessage from "./app/AppMessage.jsx";
 import AppComDetail from "./app/community/AppComDetail.jsx";
 import AppLayoutD from "./layout/AppLayoutD.jsx";
-import AppMessageDoctor from "./app/Message/examplechat/AppMessageDoctor.jsx";
+import AppMessagePrivate from "./app/Message/examplechat/AppMessagePrivate.jsx";
 
 function App() {
     return (
@@ -87,11 +87,11 @@ function App() {
                     <Route path="/app/message" element={<AppMessage />}>
                         <Route
                             path="/app/message/michie"
-                            element={<AppMessageDoctor />}
+                            element={<AppMessagePrivate />}
                         />
                         <Route
                             path="/app/message/kariadi"
-                            element={<AppMessageDoctor />}
+                            element={<AppMessagePrivate />}
                         />
                     </Route>
                 </Route>

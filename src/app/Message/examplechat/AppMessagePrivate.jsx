@@ -26,7 +26,7 @@ function AppMessageHeader() {
     );
 }
 
-function AppMessageDoctor() {
+function AppMessagePrivate() {
     return (
         <>
             <div className="flex flex-col h-screen w-full ">
@@ -51,4 +51,4 @@ function AppMessageDoctor() {
     );
 }
 
-export default AppMessageDoctor;
+export default AppMessagePrivate;
