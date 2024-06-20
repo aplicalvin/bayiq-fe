@@ -143,7 +143,7 @@ const spillChatnyaBg = [
     { id: 11, type: "other", message: "Eh, Flora lagi showroom nih!" },
 ];
 
-function AppChat() {
+function MessagePrivate() {
     return (
         <>
             <div className="text-center grid gap-2">
@@ -164,4 +164,4 @@ function AppChat() {
     );
 }
 
-export default AppChat;
+export default MessagePrivate;

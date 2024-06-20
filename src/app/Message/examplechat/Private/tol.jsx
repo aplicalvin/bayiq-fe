@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ImgnyaBG from "./../../../assets/assets/image/image1.jpg";
-import AppChat from "./MessagePrivate";
-import ChatInput from "./ChatInput";
+import ChatInput from "../ChatInput";
+import AppChat from "./AppChat";
 
 function AppMessageHeader() {
     return (
