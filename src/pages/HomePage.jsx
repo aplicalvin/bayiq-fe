@@ -1,19 +1,21 @@
 // import HomeBanner from "../components/Homepage/Banner";
-import Home2 from "../components/Homepage/Home2";
-import Home3 from "../components/Homepage/Home3";
-import Home4 from "../components/Homepage/Home4";
-import Home5 from "../components/Homepage/Home5";
 import HomeHead from "../components/Homepage/HomeHead";
+import Konsultasi2 from "../components/Konsultasi/Konsultasi2";
+import Konsultasi3 from "../components/Konsultasi/Konsultasi3";
+import Konsultasi4 from "../components/Konsultasi/Konsultasi4";
+import Konsultasi5 from "../components/Konsultasi/Konsultasi5";
+// import KonsultasiHead from "../components/Konsultasi/KonsultasiHead";
 
 function HomePage() {
     return (
         <>
             {/* <HomeBanner /> */}
             <HomeHead />
-            <Home2 />
-            <Home3 />
-            <Home4 />
-            <Home5 />
+            {/* <KonsultasiHead /> */}
+            <Konsultasi2 />
+            <Konsultasi3 />
+            <Konsultasi4 />
+            <Konsultasi5 />
         </>
     );
 }

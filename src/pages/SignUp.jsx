@@ -1,4 +1,3 @@
-import SignUpForm from "../components/SignUp/SignUpForm";
 import SignUpHead from "../components/SignUp/SignUpHead";
 
 function SignUp() {

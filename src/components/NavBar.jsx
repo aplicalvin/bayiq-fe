@@ -1,5 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
-import { Button, Navbar } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/assets/logo.png";
 
@@ -10,41 +11,13 @@ function NavBar() {
                 <img src={logo} className="mr-3 h-6 sm:h-12" alt="Logo" />
                 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white"></span>
             </Navbar.Brand>
-            <div className="flex gap-4">
-                <Navbar.Toggle className=" " />
-                <Link
-                    className="lg:hidden flex py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
-                    to="/login"
-                >
-                    Masuk
-                </Link>
-            </div>
-            <Navbar.Collapse className="lg:w-fit lg:flex">
-                <Link
-                    className="px-3 py-6 text-stone-500 hover:text-stone-900 "
-                    to="/edukasi"
-                >
-                    Edukasi
-                </Link>
-                <Link
-                    className="px-3 py-6 text-stone-500 hover:text-stone-900 "
-                    to="/konsultasi"
-                >
-                    Konsultasi
-                </Link>
-                <Link
-                    className="px-3 py-6 text-stone-500 hover:text-stone-900 "
-                    to="/informasi"
-                >
-                    Informasi
-                </Link>
-                <Link
-                    className="px-3 py-6 text-stone-500 hover:text-stone-900 "
-                    to="/komunitas"
-                >
-                    Komunitas
-                </Link>
-            </Navbar.Collapse>
+            <Navbar.Toggle className=" " />
+            <Link
+                className="lg:hidden flex py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
+                to="/login"
+            >
+                Masuk
+            </Link>
             <Link
                 className="lg:flex hidden py-3 px-6 bg-primary-600 text-stone-50 rounded-md hover:bg-primary-700"
                 to="/login"

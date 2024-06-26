@@ -1,4 +1,4 @@
-import Image1 from "../../assets/assets/image/image1.jpg";
+// import Image1 from "../../assets/assets/image/image1.jpg";
 function JenisKonsultasi() {
     return (
         <>

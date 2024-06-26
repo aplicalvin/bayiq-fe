@@ -1,6 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button, Checkbox, Label, TextInput } from "flowbite-react";
+import { Checkbox, Label, TextInput } from "flowbite-react";
 
 function SignUpForm() {
     const [username, setUsername] = useState("");
@@ -162,12 +163,13 @@ function SignUpForm() {
                             Aturan dan Kebijakan Privasi
                         </Link>
                     </div>
-                    <Button
+                    <Link
                         type="submit"
-                        className="bg-primary-600 hover:bg-primary-700"
+                        to="/login"
+                        className="bg-primary-600 hover:bg-primary-700 py-2 text-center rounded-lg text-white border-2 border-primary-700"
                     >
                         Buat Akun
-                    </Button>
+                    </Link>
                     <div className="flex gap-2 w-fit mx-auto text-stone-800 text-sm">
                         <p>Sudah punya akun?</p>
                         <Link to="/login" className="underline text-blue-700">

@@ -1,4 +1,3 @@
-import LoginForm from "../components/Login/LoginForm";
 import LoginHead from "../components/Login/LoginHead";
 
 function Login() {
